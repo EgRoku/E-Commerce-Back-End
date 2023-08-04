@@ -1,11 +1,10 @@
+require('dotenv').config();
+
 const Sequelize = require('sequelize');
-
-
 
 const sequelize = process.env.JAWSDB_URL
   ? new Sequelize(process.env.JAWSDB_URL)
-  // ennv file was not working so put in my incredibly encrpyted password for mysql
-  : new Sequelize(process.env.DB_NAME, process.env.DB_USER, 'password', {
+  : new Sequelize(process.env.DB_NAME, process.env.DB_USER, process.env.DB_PW, {
       host: 'localhost',
       dialect: 'mysql',
       dialectOptions: {
