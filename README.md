@@ -4,6 +4,7 @@
 - [Description](#description)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Video](#video)
 - [Contacts](#contacts)
 
 ## Description
@@ -34,6 +35,10 @@ Enter PW when promted
 `npm run seed`
   
 `npm start`
+
+## Video
+
+https://www.youtube.com/watch?v=cq_2bVFaqnY
 
 ## Contacts
 Contact me with any questions: 
